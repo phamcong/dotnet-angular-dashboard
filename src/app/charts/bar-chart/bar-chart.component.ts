@@ -22,7 +22,7 @@ export class BarChartComponent implements OnInit {
   public barChartData: any[] = SAMPLE_BARCHART_DATA
   public barChartLabels: string[] = SAMPLE_BARCHART_LABELS
   public barChartType: ChartType = 'bar'
-  public barChartLegend = false
+  public barChartLegend = true
 
   constructor() { }
 
