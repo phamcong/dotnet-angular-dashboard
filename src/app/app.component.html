@@ -1,5 +1,13 @@
-<app-navbar></app-navbar>
-<app-sidebar></app-sidebar>
-<div style="text-align: center">
-  <h1>{{ title }}</h1>
+<app-navbar id="navbar" class="navbar navbar-dark fixed-top bg-dard">
+</app-navbar>
+
+<div class="container-fluid">
+  <div class="row" ic="mainContent">
+    <app-sidebar
+      id="sidebar"
+      class="col-sm-3 col-md-2 d-none d-sm-block sidebar"
+    >
+    </app-sidebar>
+    <div class="col-sm-9" id="dashboard"></div>
+  </div>
 </div>
