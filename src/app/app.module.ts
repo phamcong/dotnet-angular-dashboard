@@ -10,7 +10,8 @@ import { NavbarComponent } from './navbar/navbar.component'
 import { SectionHealthComponent } from './sections/section-health/section-health.component'
 import { SectionOrdersComponent } from './sections/section-orders/section-orders.component'
 import { SectionSalesComponent } from './sections/section-sales/section-sales.component'
-import { SidebarComponent } from './sidebar/sidebar.component'
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ServerComponent } from './server/server.component'
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SidebarComponent } from './sidebar/sidebar.component'
     SectionHealthComponent,
     BarChartComponent,
     LineChartComponent,
-    PieChartComponent
+    PieChartComponent,
+    ServerComponent
   ],
   imports: [
     BrowserModule,
